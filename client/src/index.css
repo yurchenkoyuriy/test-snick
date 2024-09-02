@@ -1,0 +1,97 @@
+@import "~materialize-css";
+
+input.input-card-blue {
+    border-bottom: 1px solid #fff!important;
+    box-shadow: 0 1px 0 0 #fff!important;
+}
+input.input-card-blue + label{
+    color:#fff!important;
+}
+input.input-card-blue:focus + label{
+    color:#ffeb3b!important;
+}
+input.input-card-blue:focus{
+    border-bottom:1px solid #ffeb3b!important;
+    box-shadow: 0 1px 0 0 #ffeb3b!important;
+}
+.card-action-form button:first-child{
+    margin-right: 15px;
+}
+.btn-floating.btn-large{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action-btn{
+    display: flex;
+    justify-content: space-between;
+    padding:15px 0
+}
+.remove-btn-small-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-table{
+    display: block;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    margin: 0.5rem 0 1rem 0;
+}
+.table-flex-header, .table-flex-row {
+    display: flex;  /* aligns all child elements (flex items) in a row */
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.5;
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-flex-col:first-child{
+    max-width: 50px;
+}
+.table-flex-col:last-child{
+    max-width: 80px;
+}
+.table-flex-col {
+    flex: 1;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flex-table .input-field{
+    width: 100%;
+}
+
+.preloader-full{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    background-color: rgba(0,0,0,.6);
+    z-index: 99;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preloader-full > div{
+    max-width: 200px;
+}
+.progress .indeterminate:after,
+.progress .indeterminate:before{
+    background-color: #ee6e73;
+}
+.action-fields{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.input-field > label:not(.label-icon) {
+     transform: translateY(-14px) scale(0.8);
+     transform-origin: 0 0;
+ }
